@@ -533,6 +533,10 @@ img {
   overflow: auto;
 }
 
+.portfolio-link {
+  transition: box-shadow var(--animation);
+}
+
 .portfolio-link:hover .project-top-text,
 .portfolio-link:focus .project-top-text {
   transform: translateY(0);
